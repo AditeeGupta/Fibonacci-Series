@@ -1,2 +1,2 @@
 # Fibonacci-Series
-Internship task
+Internship task for Fibonacci Series
