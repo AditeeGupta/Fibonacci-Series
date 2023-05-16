@@ -23,7 +23,7 @@ for n in list1:
     srs = series(n)
     end_time = time.time()
     x = start_time - end_time
-    pprint(srs,"\nExecution Time: ",x )
+    print(srs,"\nExecution Time: ",x )
 
 
 #To print the fibonacci series using a recursive approach.
