@@ -22,7 +22,7 @@ for n in list1:
     start_time = time.time()
     srs = series(n)
     end_time = time.time()
-    x = start_time - end_time
+    x = end_time - start_time
     print(srs,"\nExecution Time: ",x )
 
 
@@ -46,7 +46,7 @@ for i in n:
     list_val = []
     series(i)
     end_time = time.time()
-    x = start_time - end_time
+    x = end_time - start_time
     print(list_val,"\nExecution Time: ",x )
 
 series(n)
