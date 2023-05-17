@@ -48,7 +48,7 @@ for i in n:
     end_time = time.time()
     x = end_time - start_time
     print(list_val,"\nExecution Time: ",x )
-    #Since its a recursive approach therefore the series will be printed again and again. Though the last term will not be printed because it will take alot of time to print the whole series till the 10000th term.
+    #Since its a recursive approach therefore the series will be printed again and again. Though the last term and the second last term will not be printed because it will take alot of time to print the whole series till the 10000th and 1000th term.
 
 series(n)
 print(list_val)
